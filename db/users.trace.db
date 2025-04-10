@@ -1,0 +1,19 @@
+2025-04-07 12:53:02.819454+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+select u1_0.id,u1_0.avatar,u1_0.birth_date,u1_0.city,u1_0.company,u1_0.country,u1_0.email,u1_0.first_name,u1_0.job_position,u1_0.last_name,u1_0.mobile,u1_0.password,u1_0.role,u1_0.username from users u1_0 where u1_0.email=? [42104-232]
+2025-04-09 14:54:05.346866+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "Update [*]Table USSERS\000d\000aset ROLE = 'admin'\000d\000aWhere id=12"; expected "identifier"; SQL statement:
+Update Table USSERS
+set ROLE = 'admin'
+Where id=12 [42001-232]
+2025-04-09 14:54:18.719972+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "Update [*]Table USERS\000d\000aset ROLE = 'admin'\000d\000aWhere id=12"; expected "identifier"; SQL statement:
+Update Table USERS
+set ROLE = 'admin'
+Where id=12 [42001-232]
+2025-04-09 14:57:29.959277+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE USERS[*]"; expected "., AS, SET"; SQL statement:
+UPDATE USERS [42001-232]
+2025-04-10 00:14:12.885998+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE USERS[*]"; expected "., AS, SET"; SQL statement:
+UPDATE USERS [42001-232]
